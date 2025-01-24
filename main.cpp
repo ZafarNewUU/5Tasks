@@ -52,10 +52,12 @@ using namespace std;
 
 
 
- // int main() {
- //     string text;
- //     cout << "Please write some text: ";
- //     cin >> text;
- //     cout << setw(50) << text << endl;
- //
- // }
+ int main() {
+     string a;
+     int m;
+     cin >> a;
+     m = (50 - a.length())/2;
+     cout << m <<  endl;
+     cout << setw(m) << a << setw(m) << endl;
+
+ }
